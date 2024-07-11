@@ -1,0 +1,6 @@
+[build]
+<<<<<<< HEAD
+    publish = "frontend"
+=======
+  publish = "frontend"
+>>>>>>> 4576538f3e44dd3fb693906cf58229d6280a6459
