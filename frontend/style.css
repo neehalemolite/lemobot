@@ -13,14 +13,14 @@ body {
   min-height: 100vh;
 
 }
-.main-div {
+.Lemolite_Bot_main-div {
   display: flex;
   justify-content: end;
   align-items: center;
   min-height: 100vh;
   margin-left: 90%;
 }
-.menutoggle {
+.Lemolite_Bot_menutoggle {
   position: absolute;
   bottom: 30px;
   height: 70px;
@@ -34,14 +34,14 @@ body {
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
 }
-.menutoggle:hover {
+.Lemolite_Bot_menutoggle:hover {
   transform: scale(0.95);
 }
-.menutoggle i {
+.Lemolite_Bot_menutoggle i {
   font-size: 50px;
   color: #0f0f20;
 }
-.container {
+.Lemolite_Bot_container {
   height: 30px;
   width: 30px;
   border: 1px solid rgba(17, 16, 16, 0.5);
@@ -57,14 +57,14 @@ body {
   transition: 0.5s, height 0.5s, width 0.5s;
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.menutoggle.active ~ .container {
+.Lemolite_Bot_menutoggle.active ~ .Lemolite_Bot_container {
   height: 550px;
   width: 390px;
   z-index: 1;
   transition-delay: 0s, 0.5s, 0.5s;
   transform: translateY(-100px);
 }
-.container::before {
+.Lemolite_Bot_container::before {
   content: "";
   position: absolute;
   background: #fff;
@@ -77,79 +77,79 @@ body {
   transition: 0.5s;
   /* box-shadow: 0 15px 25px rgba(0,0,0,.1); */
 }
-.menutoggle.active ~ .container::before {
+.Lemolite_Bot_menutoggle.active ~ .Lemolite_Bot_container::before {
   transition-delay: 0.5s;
 }
-.container .top-part {
+.Lemolite_Bot_container .Lemolite_Bot_top-part {
   height: 80px;
   background: #0f0f20;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.container .top-part i {
+.Lemolite_Bot_container .Lemolite_Bot_top-part i {
   font-size: 40px;
   cursor: pointer;
 }
-.top-part .details {
+.Lemolite_Bot_top-part .Lemolite_Bot_details {
   display: flex;
   align-items: center;
 }
-.container .top-part .details img {
+.Lemolite_Bot_container .Lemolite_Bot_top-part .Lemolite_Bot_details img {
   height: 100px;
 }
-.top-part .text {
+.Lemolite_Bot_top-part .Lemolite_Bot_text {
   margin-left: 10px;
 }
-.text h3 {
+.Lemolite_Bot_text h3 {
   font-size: 15px;
 }
-.text p {
+.Lemolite_Bot_text p {
   font-size: 11px;
 }
-.chat-section {
+.Lemolite_Bot_chat-section {
   position: relative;
   padding: 0 20px;
   height: 400px;
   overflow-y: scroll;
 }
 
-.chat-section::-webkit-scrollbar {
+.Lemolite_Bot_chat-section::-webkit-scrollbar {
   width: 8px;
 }
 
-.chat-section::-webkit-scrollbar-track {
+.Lemolite_Bot_chat-section::-webkit-scrollbar-track {
   background: transparent;
   border-radius: 10px;
 }
 
-.chat-section::-webkit-scrollbar-thumb {
+.Lemolite_Bot_chat-section::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
 
-.chat-section {
+.Lemolite_Bot_chat-section {
   scrollbar-color: rgba(0, 0, 0, 0.5) transparent;
   scrollbar-width: thin;
 }
 
-.left-part {
+.Lemolite_Bot_left-part {
   max-width: 260px;
   margin-top: 57px;
   margin-bottom: 10px;
 }
-.chat {
+.Lemolite_Bot_chat {
   display: flex;
   align-items: center;
 }
-.left-part i {
+.Lemolite_Bot_left-part i {
   font-size: 30px;
   background: #0f0f20;
   border-radius: 50%;
   margin-right: 10px;
   align-self: flex-start;
 }
-.left-part p {
+.Lemolite_Bot_left-part p {
   color: #555;
   font-weight: 400;
   font-size: 15px;
@@ -159,7 +159,7 @@ body {
   margin-left: 0px;
   width: 100%;
 }
-.right-part {
+.Lemolite_Bot_right-part {
   margin: -50px 0;
   text-align: right;
   max-width: 260px 0;
@@ -167,7 +167,7 @@ body {
   font-size: 14px;
   margin-top: 0px;
 }
-.right-part p {
+.Lemolite_Bot_right-part p {
   color: #fff;
   font-size: 14px;
   background: #0f0f20;
@@ -175,7 +175,7 @@ body {
   border-radius: 10px;
   margin-top: -20px;
 }
-.bottom-section {
+.Lemolite_Bot_bottom-section {
   position: absolute;
   bottom: 10px;
   display: flex;
@@ -184,7 +184,7 @@ body {
   border-top: 2px solid rgba(0, 0, 0, 0.1);
   padding: 5px;
 }
-.bottom-section button {
+.Lemolite_Bot_bottom-section button {
   font-family: inherit;
   font-size: 10px;
   color: white;
@@ -195,20 +195,20 @@ body {
   border-radius: 10px;
   cursor: pointer;
 }
-.bottom-section i {
+.Lemolite_Bot_bottom-section i {
   color: #0f0f20;
   font-size: 30px;
 }
-.bottom-section button:hover {
+.Lemolite_Bot_bottom-section button:hover {
   background: #0f0f20;
   transform: scale(0.95);
   transition: transform 0.5s;
 }
-.bottom-section i:hover {
+.Lemolite_Bot_bottom-section i:hover {
   color: white;
 }
 
-.bottom-section input {
+.Lemolite_Bot_bottom-section input {
   border: none;
   padding: 10px;
   flex: 1;
@@ -220,13 +220,13 @@ body {
   font-size: 16px;
   color: #000;
 }
-.chat {
+.Lemolite_Bot_chat {
   margin-top: 20px;
 }
-.inner-button {
+.Lemolite_Bot_inner-button {
   margin-top: 10px;
 }
-.inner-button button {
+.Lemolite_Bot_inner-button button {
   background: #0f0f20;
   color: #fff;
   border: none;
@@ -241,7 +241,7 @@ body {
   transition: background-color 0.3s, transform 0.3s;
   width: 180px;
 }
-.inner-button button:hover {
+.Lemolite_Bot_inner-button button:hover {
   background: rgb(54, 54, 141);
   transform: scale(0.95);
   box-shadow: 0 3px 5px rgba(16, 15, 15, 0.3);
@@ -256,14 +256,14 @@ body {
     opacity: 1;
   }
 }
-.typing {
+.Lemolite_Bot_typing {
   display: flex;
   align-items: center;
   margin-top: 20px;
   animation: slideIn 0.3s ease-out forwards;
 }
 
-.specification-buttons {
+.Lemolite_Bot_specification-buttons {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, auto); 
@@ -272,7 +272,7 @@ body {
   margin-left: 29px;
 }
 
-.specification-button {
+.Lemolite_Bot_specification-button {
   width: 100px;
   padding: 10px;
   background-color: #f1f1f1;
@@ -286,19 +286,19 @@ body {
   cursor: pointer;
 }
 
-.specification-button:hover {
+.Lemolite_Bot_specification-button:hover {
   background: rgb(54, 54, 141);
   transform: scale(0.95);
   box-shadow: 0 3px 5px rgba(16, 15, 15, 0.3);
 }
-.user {
+.Lemolite_Bot_user {
   text-align: right;
   max-width: 260px 0;
   float: right;
   font-size: 14px;
   margin-top: 20px;
 }
-.user p {
+.Lemolite_Bot_user p {
   color: #fff;
   font-size: 14px;
   background: #0f0f20;
@@ -307,7 +307,7 @@ body {
   margin-top: -20px;
 }
 
-.Category-button {
+.Lemolite_Bot_Category-button {
   width: 120px;
   padding: 10px;
   background-color: #f1f1f1;
@@ -320,12 +320,12 @@ body {
   transition: background-color 0.3s, transform 0.3s;
   cursor: pointer;
 }
-.Category-button:hover {
+.Lemolite_Bot_Category-button:hover {
   background: rgb(54, 54, 141);
   transform: scale(0.95);
   box-shadow: 0 3px 5px rgba(16, 15, 15, 0.3);
 }
-.Category-button-display {
+.Lemolite_Bot_Category-button-display {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, auto);
@@ -333,17 +333,17 @@ body {
   padding: 10px;
   margin-left: 29px;
 }
-.ans-style {
+.Lemolite_Bot_ans-style {
   margin-top: 40px;
   width: 100%;
   display: flex;
 }
 
-.ans-style p {
+.Lemolite_Bot_ans-style p {
   background-color: rgba(0, 0, 0, 0.1);
   color: #555;
 }
-.chat-faq {
+.Lemolite_Bot_chat-faq {
   margin: -50px 0;
   max-width: 260px 0;
   float: right;
@@ -351,7 +351,7 @@ body {
   margin-top: 0px;
   width: 80%;
 }
-.chat-faq p {
+.Lemolite_Bot_chat-faq p {
   color: #fff;
   font-size: 14px;
   background: #0f0f20;
@@ -359,18 +359,18 @@ body {
   border-radius: 10px;
   margin-top: -20px;
 }
-.ans i {
+.Lemolite_Bot_ans i {
   margin-top: 40px;
 }
-.ans{
+.Lemolite_Bot_ans{
   margin-top: 80px;
 }
 
-.ques-style {
+.Lemolite_Bot_ques-style {
   display: flex;
   flex-direction: column;
 }
-.ques-style button {
+.Lemolite_Bot_ques-style button {
   margin: 5px 0;
   padding: 10px;
   width: 100%;
@@ -379,7 +379,7 @@ body {
   text-align: inherit;
 }
 
-.contact-button {
+.Lemolite_Bot_contact-button {
   background: #0f0f20;
   width: 100px;
   padding: 10px;
@@ -390,23 +390,33 @@ body {
   margin-top: 4px;
   transition: background-color 0.3s, transform 0.3s;
 }
-.contact {
+.Lemolite_Bot_contact {
   margin-left: 40px;
   margin-top: 10px;
 }
-.contact-button:hover {
+.Lemolite_Bot_contact-button:hover {
   background: rgb(54, 54, 141);
   transform: scale(0.95);
   box-shadow: 0 3px 5px rgba(16, 15, 15, 0.3);
 }
-.warning p {
+.Lemolite_Bot_warning p {
   background: red;
   color: white;
   width: 100%;
 }
-.warning {
+.Lemolite_Bot_warning {
   display: flex;
 }
-.chat {
+.Lemolite_Bot_chat {
   width: 100%;
+}
+.Lemolite_Bot_inner-button p{
+  text-align: start;
+  font-size: 13px;
+  margin-left: 40px;
+  height:50px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  background-color: transparent;
+  color: red;
 }
